@@ -4,7 +4,7 @@ import pyPdf
 
 def main():
 	
-	filename = <LOCATION_OF_THE_PDF>
+	filename = <pdf file location>
 	
 	pdfFile = pyPdf.PdfFileReader(file(filename,'rb'))
 	data = pdfFile.getDocumentInfo()
